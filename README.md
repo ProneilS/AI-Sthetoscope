@@ -1,5 +1,11 @@
 # 🩺 AI Stethoscope – Smart Heart Sound Classifier
 
+![MIT License](https://img.shields.io/github/license/ProneilS/AI-Sthetoscope)
+![Repo Size](https://img.shields.io/github/repo-size/ProneilS/AI-Sthetoscope)
+![Last Commit](https://img.shields.io/github/last-commit/ProneilS/AI-Sthetoscope)
+![Issues](https://img.shields.io/github/issues/ProneilS/AI-Sthetoscope)
+
+
 This project combines deep learning with embedded hardware to create an **AI-powered stethoscope** that classifies heart sounds as *normal* or *abnormal*, with the long-term goal of detecting **murmurs from specific heart valves** (aortic, mitral, tricuspid, pulmonary).
 
 It uses an **ESP32** microcontroller and an **I2S microphone (INMP441/MAX9814)** to record audio, which is preprocessed into **Mel spectrograms** and fed into a **Convolutional Neural Network (CNN)** built using TensorFlow/Keras.
